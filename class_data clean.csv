@@ -1,0 +1,92 @@
+,index,CRN,Subject,COURSE,TITLE,COHORT,TYPE,SCHEDULE,TIME IN,TIME OUT,PLATFORM,INSTRUCTOR,INSTRUCTOR EMAIL
+0,0,30151,BIOL,215,Organismal Biology,,,"M, W",11:10 AM,12:25 PM,4148,"Song, M",songm@smccd.edu
+1,2,41373,BIOL,215,Organismal Biology,,,"M, W",11:10 AM,12:25 PM,4148,"Song, M",songm@smccd.edu
+2,4,48398,BIOL,215,Organismal Biology,,,"M, W",11:10 AM,12:25 PM,4148,"Song, M",songm@smccd.edu
+3,6,48537,BIOL,230,Introduction to Cell Biology,,,"M, W",12:10 PM,1:25 PM,7106,"Guth, S",guths@smccd.edu
+4,8,48811,BIOL,230,Introduction to Cell Biology,,,"M, W",11:10 AM,1:25 PM,7106,"Guth, S",guths@smccd.edu
+5,10,48088,BIOL,240,General Microbiology,,,"T, Th",11:10 AM,12:25 PM,4148,"Yuan, O",yuano@smccd.edu
+6,12,48089,BIOL,240,General Microbiology,,,"T, Th",11:10 AM,12:25 PM,4148,"Yuan, O",yuano@smccd.edu
+7,14,30154,BIOL,240,General Microbiology,,,"M, W",11:10 AM,12:25 PM,7106,"Manning, E",manningeric@smccd.edu
+8,16,34224,BIOL,240,General Microbiology,,,"M, W",3:15 PM,4:30 PM,7106,"Manning, E",manningeric@smccd.edu
+9,18,39757,BIOL,250,Human Anatomy,,,F,9:10 AM,12:00 PM,7210,"Karve, S",karves@smccd.edu
+10,20,30155,BIOL,250,Human Anatomy,,,W,9:10 AM,12:00 PM,7210,"Aquino, Y",aquinoy@smccd.edu
+11,22,38830,BIOL,250,Human Anatomy,,,F,1:10 PM,4:10 PM,7210,"Smiley, J",smileyj@smccd.edu
+12,24,48909,BIOL,250,Human Anatomy,,,M,9:10 PM,12:15 PM,7210,"Aquino, Y",aquinoy@smccd.edu
+13,26,49074,BIOL,250,Human Anatomy,,,M,1:10 PM,4:15 PM,7210,"Aquino, Y",aquinoy@smccd.edu
+14,28,49075,BIOL,250,Human Anatomy,,,W,1:10 PM,4:00 PM,7210,"Karve, S",karves@smccd.edu
+15,30,49176,BIOL,250,Human Anatomy,,,"T, Th",12:30 PM,1:45 PM,7210,"Karve, S",karves@smccd.edu
+16,32,47762,BIOL,250,Human Anatomy,,,W,7:00 PM,10:00 PM,7210,"Smiley, J",smileyj@smccd.edu
+17,34,47761,BIOL,250,Human Anatomy,,,W,4:10 PM,6:40 PM,7210,"Markowitz, W",markowitzw@smccd.edu
+18,36,48417,BIOL,250,Human Anatomy,,,F,1:10 PM,4:10 PM,7210,"Smiley, J",smileyj@smccd.edu
+19,38,47763,BIOL,260,Human Physiology,,,"T, Th",12:35 PM,1:50 PM,4148,"Markowitz, W",markowitzw@smccd.edu
+20,40,47764,BIOL,260,Human Physiology,,,"T, Th",12:35 PM,1:50 PM,4148,"Markowitz, W",markowitzw@smccd.edu
+21,42,49177,BIOL,260,Human Physiology,,,F,9:10 AM,3:20 PM,7238,Yancy G. Aquino,aquinoy@smccd.edu
+22,44,48401,BIOL,260,Human Physiology,,,"M, W",4:10 PM,6:45 PM,7238,"Timpe, L",timpel@smccd.edu
+23,46,30158,BIOL,260,Human Physiology,,,W,7:00 PM,9:30 PM,7104,"Kanaaneh, J",kanaanehj@smccd.edu
+24,48,38754,CHEM,210,General Chemistry I,,,"M, W",11:10 AM,12:25 PM,12130,"Muhn, A",muhna@smccd.edu
+25,50,42009,CHEM,210,General Chemistry I,,,"M, W",11:10 AM,12:25 PM,12130,"Muhn, A",muhna@smccd.edu
+26,52,43697,CHEM,210,General Chemistry I,,,"T, Th",11:10 AM,12:25 PM,7106,"Liu, K",liukelley@smccd.edu
+27,54,48134,CHEM,210,General Chemistry I,,,"T, Th",11:10 AM,12:25 PM,7106,"Schubert, S",schuberts@smccd.edu
+28,56,43281,CHEM,210,General Chemistry I,,,"T, Th",4:30 PM,5:40 PM,7104,"Schubert, S",schuberts@smccd.edu
+29,58,35051,CHEM,220,General Chemistry II,,,"M, W",9:10 AM,10:25 AM,7106,"Bates, A",batesa@smccd.edu
+30,60,30185,CHEM,220,General Chemistry II,,,"M, W",9:10 AM,10:25 AM,7104,"Bates, A",batesa@smccd.edu
+31,62,41377,CHEM,234,Organic Chemistry I,,,"T, Th",9:35 AM,10:50 AM,7106,"Bates, A",batesa@smccd.edu
+32,63,30187,CHEM,235,Organic Chemistry II,,,"M, W",11:10 AM,12:25 PM,7104,"Chen, L",chenleo@smccd.edu
+33,64,41378,CHEM,237,Organic Chemistry Lab I,,,W,1:10 PM,6:00 PM,7341,"Schubert, S",schuberts@smccd.edu
+34,65,30188,CHEM,238,Organic Chemistry Lab II,,,M,1:10 PM,6:30 PM,7341,"Chen, L",chenleo@smccd.edu
+35,66,41381,CHEM,410,Chem For Health Sciences,,,"M, W",12:35 PM,1:50 PM,7106,"LeBlanc, J",leblancjames@smccd.edu
+36,68,48688,CHEM,410,Chem For Health Sciences,,,"M, W",12:35 PM,1:50 PM,7106,"Ghanma, M",ghanmam@smccd.edu
+37,70,41604,CHEM,410,Chem For Health Sciences,,,"M, W",2:10 PM,5:00 PM,7338,"Chen, L",chenleo@smccd.edu
+38,72,48916,CHEM,410,Chem For Health Sciences,,,W,6:10 PM,9:00 PM,7338,"Chen, L",chenleo@smccd.edu
+39,74,46441,CHEM,410,Chem For Health Sciences,,,M,6:30 PM,9:35 AM,7106,"Ghanma, M",ghanmam@smccd.edu
+40,76,39743,CHEM,410,Chem For Health Sciences,,,T,6:30 PM,9:35 AM,7106,"Ghanma, M",ghanmam@smccd.edu
+41,78,49073,CHEM,410,Chem For Health Sciences,,,T,2:10 PM,5:00 PM,7338,"Chen, L",chenleo@smccd.edu
+42,80,48611,CIS,122,Intro. to Programming: Python,,OLN,,,,,"Momeni, K",momenik@smccd.edu
+43,81,48621,CIS,132,Introduction to Databases,,,"M, W",10:10 AM,11:25 AM,4301,"Katz, A",katza@smccd.edu
+44,82,48899,CIS,132,Introduction to Databases,,OLN,,,,,"Katz, A",katza@smccd.edu
+45,83,48617,CIS,242,Comp. Arch. & Assembly Lang.,,,"T, Th",9:35 AM,10:50 AM,4271,"Katz, A",katza@smccd.edu
+46,84,48844,CIS,250,Intro to Obj Ori Program.: C++,,OLN,,,,,"Katz, A",katza@smccd.edu
+47,85,48612,CIS,250,Intro to Obj Ori Program.: C++,,OLN,,,,,"Katz, A",katza@smccd.edu
+48,86,48615,CIS,252,Intro to Data Struct.: C++,,,"T, Th",11:10 AM,12:25 PM,4271,"Katz, A",katza@smccd.edu
+49,87,48622,CIS,257,Intro Microcontroller w/C/CC++,,,W,6:10 PM,8:40 PM,7304,"Katz, A",katza@smccd.edu
+50,88,49077,CIS,262,Discrete Math. for Comp Science,,,W,12:10 PM,2:45 PM,8121,"Hoffman, J",hoffmanj@smccd.edu
+51,89,48625,CIS,286,Intro Data Structures – Java,,,"M, W",5:10 PM,6:25 PM,8121,"Hoffman, J",hoffmanj@smccd.edu
+52,90,48157,ENGR,210,Engineering Graphics,,Lecture and/or Discussion,MWF,11:10 AM,12:00 PM,8121,"Abboud, S",abbouds@smccd.edu
+53,92,49178,ENGR,240,Engineering Dynamics,,OLN,,,,,"Abboud, S",abbouds@smccd.edu
+54,94,46938,ENGR,270,Materials Science,,OLN,,,,,"Langhoff, N",langhoffn@smccd.edu
+55,96,48096,PHYS,210,General Physics I,,Online,,,,Remote,"Pevyhouse, A",pevyhousea@smccd.edu
+56,98,49171,PHYS,210,General Physics I,,Online,,,,0,"Yadak, P",yadakp@smccd.edu
+57,100,49172,PHYS,210,General Physics I,,Online,,,,0,"Yadak, P",yadakp@smccd.edu
+58,102,41392,PHYS,211,General Physics I-Calculus Sup,,Online,,,,0,"Kaur, G",kaurg@smccd.edu
+59,103,48107,PHYS,220,General Physics II,,Laboratory/Studio/Activity,T,1:10 PM,4:00 PM,7305,"Hein, E",heine@smccd.edu
+60,105,48098,PHYS,221,Gen Physics II Calculus Sup,,Online,,,,0,"Pevyhouse, A",pevyhouseA@smccd.edu
+61,106,48109,PHYS,250,Physics with Calculus I,,Laboratory/Studio/Activity,W,1:10 PM,4:00 PM,7305,"Hein, E",heine@smccd.edu
+62,108,36909,PHYS,250,Physics with Calculus I,,Online,,,,Remote,"Kaur, G",kaurg@smccd.edu
+63,110,48806,PHYS,250,Physics with Calculus I,PROM2 - Promise Scholars - SKY,Laboratory/Studio/Activity,W,1:10 PM,4:00 PM,7305,"Hein, E",heine@smccd.edu
+64,112,48116,PHYS,260,Physics with Calculus II,,Online,,,,0,"Wehrfritz, M",wehrfritz@smccd.edu
+65,114,48118,PHYS,260,Physics with Calculus II,,Online,,,,0,"Jazaeri, A",jazaeria@smccd.edu
+66,116,48807,PHYS,260,Physics with Calculus II,PROM2 - Promise Scholars - SKY,Online,,,,0,"Wehrfritz, M",wehrfritz@smccd.edu
+67,118,48418,PHYS,270,Physics with Calc III,PROM2 - Promise Scholars - SKY,Online,,,,0,"Hein, E",heine@smccd.edu
+68,121,47329,PHYS,270,Physics with Calculus III,,Online,,,,0,"Hein, E",heine@smccd.edu
+69,124,47330,PHYS,270,Physics with Calculus III,,Online,,,,0,"Hein, E",heine@smccd.edu
+70,127,46524,MATH,225,Path to Calculus,,Lecture and/or Discussion,"M, W, F",1:10 PM,3:00 PM,8302,"Choi, Y",choiy@smccd.edu
+71,128,48137,MATH,225,Path to Calculus,,Lecture and/or Discussion,"T, TH",9:10 AM,12:00 PM,8304,"Hasson, D",hassond@smccd.edu
+72,129,48140,MATH,225,Path to Calculus,MIDDLE2 - MIDDLE COLLEGE-SKY,Lecture and/or Discussion,"T, TH",9:10 AM,12:00 PM,8304,"Hasson, D",hassond@smccd.edu
+73,130,46962,MATH,225,Path to Calculus,PROM2 - Promise Scholars - SKY,Lecture and/or Discussion,"T, TH",9:10 AM,12:00 PM,8304,"Hasson, D",hassond@smccd.edu
+74,131,46963,MATH,225,Path to Calculus,PROM2 - Promise Scholars - SKY,Lecture and/or Discussion,"M, W, F",1:10 PM,3:00 PM,8302,"Choi, Y",choiy@smccd.edu
+75,132,40707,MATH,251,Calculus/Analytic Geometry I,,Lecture and/or Discussion,"M, T, W, Th, F",10:10 AM,11:00 AM,7104,"Tsuchida, T",tsuchida@smccd.edu
+76,133,46662,MATH,251,Calculus/Analytic Geometry I,,Lecture and/or Discussion,"M, T, W, Th, F",9:10 AM,10:00 AM,8213,"Leach, E",leache@smccd.edu
+77,134,47744,MATH,251,Calculus/Analytic Geometry I,,Lecture and/or Discussion,"M, T, W, Th, F",10:10 AM,11:00 AM,7104,"Tsuchida, T",tsuchida@smccd.edu
+78,135,46930,MATH,251,Calculus/Analytic Geometry I,,Lecture and/or Discussion,"M, T, W, Th, F",8:10 AM,9:00 AM,7104,"Freedman, J",freedmanj@smccd.edu
+79,136,30570,MATH,251,Calculus/Analytic Geometry I,,Online,OLN,,,0,"Williams, P",williamsp@smccd.edu
+80,137,47923,MATH,251,Calculus/Analytic Geometry I,,OLN,OLN,,,0,"Weathersby, K",weathersbyk@smccd.edu
+81,138,49159,MATH,251,Calculus/Analytic Geometry I,PROM2 - Promise Scholars,Lecture and/or Discussion,"M, T, W, Th, F",9:10 AM,10:00 AM,8213,"Leach, E",leache@smccd.edu
+82,139,46911,MATH,252,Calcu/Analytic Geometry II,,Lecture and/or Discussion,"M, T, W, Th, F",8:10 AM,9:00 AM,8302,"Wang, C",wangc@smccd.edu
+83,140,46486,MATH,252,Calcu/Analytic Geometry II,,Lecture and/or Discussion,"M, T, W, Th, F",8:10 AM,9:00 AM,8213,"Freedman, J",freedmanj@smccd.edu
+84,141,49119,MATH,252,Calcu/Analytic Geometry II,,Online,,,,0,"Kotsishevskaya, Z",kotsishevskayaz@smccd.edu
+85,142,48791,MATH,252,Calcu/Analytic Geometry II,PROM2 - Promise Scholars,Lecture and/or Discussion,"M, T, W, Th, F",11:10 AM,12:00 PM,8213,"Freedman, J",freedmanj@smccd.edu
+86,143,45784,MATH,253,Calculus/Analytic Geometry III,,Lecture and/or Discussion,"M, T, W, Th, F",11:10 AM,12:00 PM,8213,"Tsuchida, T",tsuchida@smccd.edu
+87,144,46912,MATH,253,Calculus/Analytic Geometry III,,Lecture and/or Discussion,"M, T, W, Th, F",8:10 AM,9:00 AM,8213,"Leach, E",leache@smccd.edu
+88,145,48142,MATH,253,Calculus/Analytic Geometry III,,Lecture and/or Discussion,"M, T, W, Th, F",8:10 AM,9:00 AM,8213,"Leach, E",leache@smccd.edu
+89,146,48144,MATH,270,Linear Algebra,,Online,,,,0,"Williams, P",williamsp@smccd.edu
+90,147,46991,MATH,275,Ordinary Differential Equation,,Online,,,,0,"Weathersby, K",weathersbyk@smccd.edu
