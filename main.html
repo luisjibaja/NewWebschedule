@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart WebSchedule</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="app-shell">
+        <header class="topbar">
+            <div class="brand">
+                <div class="brand-label">Smart</div>
+                <div class="brand-name">WebSchedule</div>
+            </div>
+            <nav class="topnav">
+                <button id="navSchedule" class="nav-pill nav-active">Course Schedule</button>
+                <button id="navCalendar" class="nav-pill">Calendar</button>
+            </nav>
+        </header>
+
+        <main class="layout-grid">
+            <aside class="sidebar">
+                <div class="panel sidebar-panel">
+                    <h2>Registered Courses</h2>
+                    <div id="registeredList" class="registered-list"></div>
+                    <div class="sidebar-footer">
+                        <div class="unit-summary">
+                            <span>Total Units</span>
+                            <strong id="totalUnits">0</strong>
+                        </div>
+                        <button id="calendarAction" class="primary-btn">Add to Calendar</button>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="content-area">
+                <div class="panel filter-panel">
+                    <div class="filter-group">
+                        <label for="termSelect">Term</label>
+                        <select id="termSelect"></select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="subjectSelect">Subject</label>
+                        <select id="subjectSelect"></select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="courseSelect">Course</label>
+                        <select id="courseSelect"></select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="keywordInput">Keywords</label>
+                        <input type="text" id="keywordInput" placeholder="Search title or instructor" />
+                    </div>
+                    <button id="searchButton" class="primary-btn search-btn">Search</button>
+                </div>
+
+                <section id="schedulePage" class="page page-active">
+                    <div class="section-header">
+                        <div>
+                            <h3>Course</h3>
+                            <p>Select a subject and course, then view available sections.</p>
+                        </div>
+                    </div>
+                    <div id="courseList" class="course-list"></div>
+                </section>
+
+                <section id="calendarPage" class="page">
+                    <div class="calendar-header">
+                        <div>
+                            <span class="calendar-month">January</span>
+                            <span class="calendar-year">2026</span>
+                        </div>
+                        <div class="calendar-nav">
+                            <button id="prevMonth" class="nav-small">Prev</button>
+                            <button id="nextMonth" class="nav-small">Next</button>
+                        </div>
+                    </div>
+                    <div class="calendar-grid" id="calendarGrid"></div>
+                </section>
+            </section>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
