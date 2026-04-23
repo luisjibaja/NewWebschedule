@@ -5,6 +5,7 @@ const state = {
     courses: [],
     sections: [],
     cart: [],
+    openCourses: new Set(),
     currentPage: 'schedule',
     currentMonth: new Date(2026, 0, 1)
 };
@@ -193,11 +194,13 @@ function renderCourseCard(courseKey, sections) {
                     <p>${title}</p>
                 </div>
                 <div class="course-actions">
-                    <button data-action="toggle-sections" data-course="${courseKey}">View Sections</button>
+                    <button data-action="toggle-sections" data-course="${courseKey}">
+                        ${state.openCourses.has(courseKey) ? 'Hide Sections' : 'View Sections'}
+                    </button>
                     <span>${rowCount} sections</span>
                 </div>
             </div>
-            <div class="section-list" id="sections-${courseKey.replace(/\s+/g, '-')}">
+            <div class="section-list ${state.openCourses.has(courseKey) ? 'open' : ''}" id="sections-${courseKey.replace(/\s+/g, '-')}">
                 <div class="section-row header">
                     <div>CRN</div>
                     <div>DAYS</div>
@@ -234,14 +237,20 @@ function attachSectionToggles() {
             const courseKey = button.dataset.course;
             const sectionBlock = document.getElementById(`sections-${courseKey.replace(/\s+/g, '-')}`);
             sectionBlock.classList.toggle('open');
-            button.textContent = sectionBlock.classList.contains('open') ? 'Hide Sections' : 'View Sections';
+            if (sectionBlock.classList.contains('open')) {
+                state.openCourses.add(courseKey);
+                button.textContent = 'Hide Sections';
+            } else {
+                state.openCourses.delete(courseKey);
+                button.textContent = 'View Sections';
+            }
         });
     });
 
     document.querySelectorAll('[data-action="toggle-cart"]').forEach((button) => {
         button.addEventListener('click', () => {
             const crn = button.dataset.crn;
-            const section = state.sections.find((item) => item.crn === crn);
+            const section = state.allSections.find((item) => item.crn === crn);
             if (!section) return;
             if (state.cart.some((entry) => entry.crn === crn)) {
                 state.cart = state.cart.filter((entry) => entry.crn !== crn);
@@ -332,7 +341,7 @@ function renderCalendarCell(date) {
                 <span>${day}</span>
                 <span>${date.toLocaleString('default', { weekday: 'short' })}</span>
             </div>
-            <div class="events" />
+            <div class="events"></div>
         </div>
     `;
 }

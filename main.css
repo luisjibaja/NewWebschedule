@@ -100,9 +100,14 @@ body {
 }
 
 .layout-grid {
+    /*display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 24px;*/
     display: grid;
     grid-template-columns: 320px 1fr;
     gap: 24px;
+    align-items: start;
+
 }
 
 .sidebar {
@@ -194,12 +199,15 @@ body {
 .content-area {
     display: grid;
     gap: 24px;
+    align-content: start;
+    align-items: start;
 }
 
 .filter-panel {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: 180px 180px 180px minmax(220px, 1fr) 160px;
     gap: 18px;
+    align-self: start;
     align-items: end;
     padding: 16px 22px;
 }
@@ -237,9 +245,10 @@ body {
 }
 
 .search-btn {
-    grid-column: span 1;
-    justify-self: end;
-    min-width: 160px;
+    grid-column: auto;
+    width: 100%;
+    min-width: 0;
+    justify-self: stretch;
 }
 
 .page {
@@ -453,6 +462,16 @@ body {
     font-size: 13px;
 }
 
+@media (max-width: 1100px) {
+    .filter-panel {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .search-btn {
+        grid-column: span 2;
+    }
+}
+
 @media (max-width: 1200px) {
     .layout-grid {
         grid-template-columns: 1fr;
@@ -484,4 +503,14 @@ body {
     .course-actions {
         justify-content: flex-start;
     }
+}
+
+.section-list {
+    display: none; /* hide by default */
+    border-top: 1px solid rgba(15, 95, 209, 0.12);
+    background: #f7f9ff;
+}
+
+.section-list.open {
+    display: block; /* show when toggled */
 }
