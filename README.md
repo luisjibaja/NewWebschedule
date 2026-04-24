@@ -21,8 +21,7 @@ Improving SMCCCD
 
 ## Demo
 
-*(Add your demo link or video here)*
-Example: https://your-demo-link.com
+https://drive.google.com/file/d/1uNBl53oIzDhA3NNbu_eJ9SZZfb6yhd9p/view?usp=drive_link
 
 ---
 
