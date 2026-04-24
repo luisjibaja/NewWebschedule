@@ -8,8 +8,8 @@ Smart WebSchedule is a lightweight web application that allows students in the S
 
 ## Team Members
 
-* Luis Prado
 * Qian Zhao
+* Luis Prado
 
 ---
 
